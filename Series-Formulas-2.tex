@@ -1,0 +1,37 @@
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+
+\begin{document}
+\noindent
+\textbf{LIMIT COMPARISON TEST}
+\\
+Suppose that $a_n>0$ and $b_n>0$. If $$\lim_{n\to \infty}\frac{a_n}{b_n}=L$$ where L is a positive finite value, 
+the series $$\sum_{n=1}^{\infty}a_n\text{ and }\sum_{n=1}^{\infty}b_n$$ either both converge or both diverge. 
+\\\\
+\textbf{ALTERNATING SERIES TEST}
+\\
+Let $a_n > 0$. 
+The series $$\sum_{n=1}^{\infty}(-1)^na_n\text{ and }\sum_{n=1}^{\infty}(-1)^{n+1}a_n$$ converge if $\lim_{n\to \infty}a_n=0$ and $a_{n+1}\leq{a_n}$ for all n. 
+\\\\
+\textbf{RATIO TEST}
+\\
+1. $\sum{a_n}$ converges absolutely if $\lim_{n\to \infty}|\frac{a_n}{b_n}|<1$
+\\
+2. $\sum{a_n}$ diverges if $\lim_{n\to \infty}|\frac{a_n}{b_n}|>1$
+\\
+3. The ratio test is inconclusive if $\lim_{n\to \infty}|\frac{a_{n+1}}{a_n}|=1$
+\\\\
+\textbf{ROOT TEST}
+\\
+1. $\sum{a_n}$ converges absolutely if $\lim_{n\to \infty}\sqrt[n]{|a_n|}<1$
+\\
+2. $\sum{a_n}$ diverges if $\lim_{n\to \infty}\sqrt[n]{|a_n|}>1$
+\\
+3. The root test is inconclusive if $\lim_{n\to \infty}\sqrt[n]{|a_n|}=1$
+
+
+
+\end{document}

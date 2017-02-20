@@ -1,0 +1,48 @@
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\begin{document}
+\noindent
+\textbf{DIRECT COMPARISON TESTS}\\
+\underline{Improper Integrals}\\
+Suppose that $f(x)$ and $g(x)$ are continuous and decreasing functions where $f(x)\geq{g(x)}\geq{0}$ for $x\geq{a}$.\\
+1. If $\int\limits_{a}^{\infty}f(x) dx$ is \textbf{convergent}, then $\int\limits_{a}^{\infty}g(x) dx$ is also \textbf{convergent}.\\
+2. If $\int\limits_{a}^{\infty}g(x) dx$ is \textbf{divergent}, then $\int\limits_{a}^{\infty}f(x) dx$ is also \textbf{divergent}.
+\\
+\underline{Series}\\
+Suppose that $a_n$ and $b_n$ are sequences where $b_n\geq{a_n}\geq{0}$.\\
+1. If the series $\sum_{n=1}^{\infty}b_n$ is \textbf{convergent}, then $\sum_{n=1}^{\infty}a_n$ is also \textbf{convergent}.\\
+2. If the series $\sum_{n=1}^{\infty}a_n$ is \textbf{divergent}, then $\sum_{n=1}^{\infty}b_n$ is also \textbf{divergent}.
+\\\\
+\textbf{P-TESTS}\\
+Suppose that $f(x)$ is a positive function and that $f(x)=\frac{1}{x^P}$\\
+The improper integral $\int\limits_{a}^{\infty}\frac{1}{x^P}dx$ is \textbf{convergent} if $P>1$ and \textbf{divergent} if $P\leq{1}$
+The integral $\int\limits_{0}^{a}\frac{1}{x^P}dx$ is \textbf{convergent} if $P<1$ and \textbf{divergent} if $P\geq{1}$\\
+The series $\sum_{n=1}^{\infty} \frac{1}{n^P}$ is \textbf{convergent} if $P>1$ and \textbf{divergent} if $P\leq{1}$
+\\\\
+\textbf{GEOMETRIC SERIES TEST}\\
+The series $\sum_{n=1}^{\infty} a(r^n)$ is \textbf{convergent} if $|r|<{1}$ and \textbf{divergent} if $|r|\geq{1}$
+\\If $|r|<{1}$, the series will converge to $\frac{a_1}{1-r}$
+\\\\
+\textbf{INTEGRAL TEST}\\
+Suppose that $f(x)$ is a positive, continuous, and decreasing function and that $f(n)=a_n$.\\
+The series $\sum_{n=1}^{\infty}a_n$ and $\int\limits_{1}^{\infty}f(x) dx$ will either \textbf{both converge} or \textbf{both diverge.} 
+\\\\
+\textbf{Nth TERM TEST FOR DIVERGENCE}\\
+If $\lim_{n\to \infty}a_n\ne 0$, then $\sum_{n=1}^{\infty}a_n$ is \textbf{divergent}.
+\\\\
+\textbf{TELESCOPING SERIES TEST}\\
+A series in the form $$\sum_{n=1}^{\infty}(\frac{1}{n}-\frac{1}{n+1})$$ can be written as $$(\frac{1}{1}-\frac{1}{2})+(\frac{1}{2}-\frac{1}{3})+(\frac{1}{3}-\frac{1}{4})+(\frac{1}{4}-\frac{1}{5})+(\frac{1}{5}-\frac{1}{6})+...(0)$$\\
+which simplifies to $$1-0=1$$
+Use partial fractions to get the sequence in the desired form $\frac{1}{n\pm{a}}+\frac{1}{n\pm{b}}$. This test is only used to determine the convergence of a series.
+
+
+
+
+
+
+
+
+\end{document}
